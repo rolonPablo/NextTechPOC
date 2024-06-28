@@ -1,0 +1,57 @@
+/* story-list.component.css */
+
+  
+  h2 {
+    text-align: center;
+    color: #343a40;
+    font-size: 1.5em; /* Reducir el tamaño del texto */
+  }
+  
+  input[type="text"] {
+    width: 500px;
+    padding: 8px; /* Reducir el padding */
+    margin-bottom: 15px; /* Reducir el margen inferior */
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px; /* Reducir el padding */
+    margin-bottom: 8px; /* Reducir el margen inferior */
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    margin: 0 0 5px; /* Reducir el margen inferior */
+    color: #343a40; /* Color neutral para el texto que no es enlace */
+    font-size: 1.2em; /* Reducir el tamaño del texto */
+  }
+  
+  h3 a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  h3 a:hover {
+    color: #0056b3;
+  }
+  
+ 
+  
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #dee2e6;
+    margin: 10px 0; /* Reducir el margen vertical */
+  }
+  
+  

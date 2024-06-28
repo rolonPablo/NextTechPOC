@@ -1,0 +1,32 @@
+<!-- story-list.component.html -->
+<input type="text" (input)="filterStories($event)" placeholder="Search stories by title">
+
+@if (filteredStories.length > 0) {
+  <div>
+    <h2>List of new stories</h2>
+    <ul>
+      @for (story of filteredStories; track story) {
+        @if(story.url){
+        <li>
+          <h3>{{ story.id }}</h3>
+          <h3>{{ story.title }}</h3>
+          <h3>
+            <a  href="{{ story.url }}" target="_blank">{{ story.url }}</a>
+          </h3>
+        </li>
+        }
+        <hr/>
+      }
+    </ul>
+    <div>
+        <button (click)="prevPage()" [disabled]="pageNumber === 1">Previous</button>
+        <span>Page {{ pageNumber }}</span>
+        <button (click)="nextPage()">Next</button>
+     </div>
+  </div>
+}
+@if (filteredStories.length === 0) {
+  <div>
+    <p>No stories to show.</p>
+  </div>
+}

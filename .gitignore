@@ -1,0 +1,55 @@
+# FrontEnd Angular ignore
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+/NextTechApp/node_modules/
+/NextTechApp/.angular/
+/NextTechApp/.angular/cache/
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/NextTechApp/.angular/cache/*
+# Ignorar archivos de caché de Angular
+NextTechApp/.angular/cache/
+
+/NextTechApp/.sass-cache/
+/NextTechApp/connect.lock
+/NextTechApp/coverage
+/NextTechApp/libpeerconnection.log
+/NextTechApp/testem.log
+/NextTechApp/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+#.Net ignore
+*.config
+/NextTechPOC/bin/
+/NextTechPOC/obj/
+/NextTechPOC.Tests/bin/Debug/
+/NextTechPOC/.vs/

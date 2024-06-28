@@ -1,0 +1,6 @@
+@NextTechPOC_HostAddress = http://localhost:5291
+
+GET {{NextTechPOC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

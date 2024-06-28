@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextTechPOC", "NextTechPOC.csproj", "{B29D59C9-75EE-4BEF-A174-2B0256B0025C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextTechPOC.Tests", "..\NextTechPOC.Tests\NextTechPOC.Tests.csproj", "{465702D1-AE24-43E0-822B-EDC1D27322D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29D59C9-75EE-4BEF-A174-2B0256B0025C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29D59C9-75EE-4BEF-A174-2B0256B0025C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29D59C9-75EE-4BEF-A174-2B0256B0025C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29D59C9-75EE-4BEF-A174-2B0256B0025C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465702D1-AE24-43E0-822B-EDC1D27322D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465702D1-AE24-43E0-822B-EDC1D27322D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465702D1-AE24-43E0-822B-EDC1D27322D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465702D1-AE24-43E0-822B-EDC1D27322D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8108E32-6BA6-4CE2-95DA-ACC2E68F38DC}
+	EndGlobalSection
+EndGlobal
